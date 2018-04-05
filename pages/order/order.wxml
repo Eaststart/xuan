@@ -1,0 +1,10 @@
+<view class='header'>
+  <navigator>全部</navigator>
+  <navigator>待付款</navigator>
+  <navigator>待发货</navigator>
+  <navigator>待收货</navigator>
+  <navigator>待评价</navigator>
+</view>
+<view class='mid'>
+  <image src='/images/empty.png'></image> 
+</view>

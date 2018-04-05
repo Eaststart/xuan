@@ -1,0 +1,60 @@
+<import src='../../common/swiper.wxml' />
+<template is='swiper' data="{{indicatorDots:indicatorDots,autoplay:autoplay,interval:interval,duration:duration,imgUrls:imgUrls}}"/>
+<view class='main'>
+  <view class='list'>
+    <view class='top'>
+      <image src="{{imgUrls[1]}}"></image>
+    </view>
+    <view class='title'>
+      <text>雷雷洗澡</text>
+    </view>
+    <view class='price'>
+      <text>¥<text>60</text></text>
+      <image src='/images/goods.png'></image>
+    </view>
+    <navigator url='/pages/detail/detail'></navigator>
+  </view>
+  
+  <view class='list'>
+    <view class='top'>
+      <image src="{{imgUrls[1]}}"></image>
+    </view>
+    <view class='title'>
+      <text>雷雷洗澡</text>
+    </view>
+    <view class='price'>
+      <text>¥<text>60</text></text>
+      <image src='/images/goods.png'></image>
+    </view>
+    <navigator></navigator>
+  </view>
+
+  <view class='list'>
+    <view class='top'>
+      <image src="{{imgUrls[1]}}"></image>
+    </view>
+    <view class='title'>
+      <text>雷雷洗澡</text>
+    </view>
+    <view class='price'>
+      <text>¥<text>60</text></text>
+      <image src='/images/goods.png'></image>
+    </view>
+    <navigator></navigator>
+  </view>
+
+  <view class='list'>
+    <view class='top'>
+      <image src="{{imgUrls[1]}}"></image>
+    </view>
+    <view class='title'>
+      <text>雷雷洗澡</text>
+    </view>
+    <view class='price'>
+       <text>¥<text>60</text></text>
+      <image src='/images/goods.png'></image> 
+    </view>
+    <navigator></navigator>
+  </view>
+
+</view>

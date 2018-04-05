@@ -1,0 +1,51 @@
+<import src='../../common/swiper.wxml' />
+<template is='swiper' data="{{indicatorDots:indicatorDots,autoplay:autoplay,interval:interval,duration:duration,imgUrls:imgUrls}}"/>
+<view class='search'>
+  <navigator>
+    <image src='/images/search.png'></image>
+    <text>搜索商品</text>
+  </navigator>
+</view>
+<view class='kind'>
+  <view class='list'>
+    <image src=""></image>
+    <text>狗狗游泳</text>
+    <navigator url='/pages/goods/goods'></navigator>
+  </view>
+  <view class='list'>
+    <image src=""></image>
+    <text>狗狗游泳</text>
+    <navigator url='/pages/goods/goods'></navigator>
+  </view>
+  <view class='list'>
+    <image src=""></image>
+    <text>狗狗游泳</text>
+    <navigator url='/pages/goods/goods'></navigator>
+  </view>
+
+</view>
+<view class='info'>
+  <view class='left'>
+    <image src=""></image>
+  </view>
+  <view class='right'>
+    <navigator>
+      <text class='name'>店铺：</text>
+      <text>宠物店</text>
+    </navigator>
+    <navigator>
+      <text class='name'>电话：</text>
+      <image src='/images/tel.png'></image>
+      <text>18692637868</text>
+    </navigator>
+    <navigator>
+      <text class='name'>地址：</text>
+      <image src='/images/mine/site.png'></image>
+      <text>湖南省株洲市辉煌时代</text>
+    </navigator>
+  </view>
+</view>
+<view class='map'>
+  <map latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" covers="{{covers}}">
+  </map>
+</view>

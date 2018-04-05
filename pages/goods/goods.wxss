@@ -1,0 +1,57 @@
+swiper swiper-item text{
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.main{
+  display:flex;
+  flex-wrap: wrap;
+  padding:20rpx 20rpx 0;
+  justify-content: space-between;
+}
+.main navigator{
+  width:100%;
+  height:76%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.main .list{
+  width:348rpx;
+  height:500rpx;
+  background-color:#fff;
+  margin-bottom:16rpx;
+  position:relative;
+}
+.main .list .top image{
+  width:100%;
+  height:360rpx;
+}
+.main .list .title{
+  width:100%;
+  box-sizing: border-box;
+  padding:0 14rpx;
+  font-size:32rp;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.main .list .price{
+  padding:0 10rpx;
+  display:flex;
+  justify-content: space-between;
+  margin-top:14rpx;
+}
+.main .list .price text{
+  color:#FF0000;
+}
+.main .list .price image{
+  width:90rpx;
+  height:90rpx;
+  position:relative;
+  bottom:24rpx;
+}

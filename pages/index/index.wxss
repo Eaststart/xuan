@@ -1,0 +1,105 @@
+swiper swiper-item{
+  position:relative;
+}
+swiper swiper-item navigator{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.search{
+  margin-top:20rpx;
+  height:70rpx;
+}
+.search navigator{
+  width:90%;
+  height:70rpx;
+  background-color:#fff;
+  margin:0 auto;
+  border-radius:40rpx;
+  display:flex;
+  border:1px solid black;
+}
+.search navigator text{
+  align-self: center;
+  font-size:28rpx;
+}
+.search navigator image{
+  width:70rpx;
+  height:70rpx;
+}
+.kind{
+  margin-top:24rpx;
+  padding-top:20rpx;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color:#fff;
+}
+.kind .list{
+  display:flex;
+  flex-direction:column;
+  width:30%;
+  margin-bottom:30rpx;
+  position:relative;
+}
+.kind .list navigator{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+}
+.kind .list text{
+  font-size:32rpx;
+  text-align:center;
+}
+.kind .list image{
+  width:180rpx;
+  height:180rpx;
+  border-radius:100%;
+  align-self: center;
+  margin-bottom:10rpx;
+}
+.info{
+  display:flex;
+  padding:24rpx 40rpx 18rpx;
+  background-color:#fff;
+  margin-top:20rpx;
+}
+.info .left image{
+  width:200rpx;
+  height:200rpx;
+}
+.info .right{
+  display:flex;
+  flex-direction: column;
+  margin-left:16rpx;
+}
+.info .right text{
+  font-size:30rpx;
+  color:blakc;
+}
+.info .right .name{
+  color:#C1C1C1;
+}
+.info .right image{
+  width:48rpx;
+  height:48rpx;
+  vertical-align: middle;
+  position:relative;
+  top:-4rpx;
+}
+.map{
+  width:100%;
+  height:400rpx;
+  padding:0 20rpx 20rpx;
+  background-color:#fff;
+  box-sizing:border-box;
+}
+.map map{
+  width:100%;
+  height:100%;
+}

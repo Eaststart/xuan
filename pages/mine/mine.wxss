@@ -1,0 +1,49 @@
+.mine .header{
+  background:#000000;
+  height:290rpx;
+  position:relative;
+}
+.mine .header view{
+  box-sizing: border-box;
+  padding-top:30rpx;
+  text-align:center;
+}
+.mine .header image{
+  width:140rpx;
+  height:140rpx;
+  background-color: #eeeeee;
+  border-radius:100%;
+  margin-bottom:10rpx;
+}
+.mine .header text{
+  color:#ffffff;
+  font-size:32rpx;
+
+}
+.main{
+  margin-top:18rpx;
+}
+.main .list{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+  border-top:1px solid #E7E7E7;
+  border-bottom:1px solid #E7E7E7;
+  padding:12rpx 20rpx;
+  box-sizing: border-box;
+  margin-top:-1px;
+}
+.main .list .listL{
+  display:flex;
+}
+.main .list .listL image,.main .list .listR image{
+  width:60rpx;
+  height:60rpx;
+}
+.main .list .listL image{
+  margin-right:40rpx;
+}
+.main .list .listL text{
+  font-size:32rpx;
+  align-self: center;
+}

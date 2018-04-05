@@ -1,0 +1,33 @@
+.header{
+  height:100rpx;
+  width:100%;
+  background-color:#fff;
+  border-bottom:1px solid #D4D4D6;
+  box-sizing: border-box;
+  padding:0 20rpx;
+  line-height:90rpx;
+  display:flex;
+  justify-content: space-between;
+  font-size:32rpx;
+}
+.header navigator{
+  flex:1;
+  text-align:center;
+}
+.mid{
+  width:160rpx;
+  height:160rpx;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.mid image{
+  width:100%;
+  height:100%;
+}

@@ -1,0 +1,134 @@
+<view class='wrap'>
+  <view class='header pad'>
+    <label class='left'>
+      <checkbox></checkbox>
+      <text>全选</text>
+    </label>
+    <view class='mid'>
+      <image src='/images/qr.png'>
+      </image>
+      <text>扫一扫加入购物车</text>
+    </view>
+    <view class='right'>
+      <text>编辑</text>
+    </view>
+  </view>
+  <view class='main'>
+    <view class='list pad'>
+      <checkbox></checkbox>
+      <view class='img'>
+        <image src='{{imgUrls[0]}}'></image>
+        <navigator></navigator>
+      </view>
+      <view class='con'>
+        <view class='title'>
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='size'>
+          默认规格:
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='price'>
+          <text class='p'>¥<text>12</text></text>
+          <text class='n'>X<text>1</text></text>
+        </view>
+      </view>
+    </view>
+
+    <view class='list pad'>
+      <checkbox></checkbox>
+      <view class='img'>
+        <image src='{{imgUrls[0]}}'></image>
+      </view>
+      <view class='con'>
+        <view class='title'>
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='size'>
+          默认规格:
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='price'>
+          <text class='p'>¥<text>12</text></text>
+          <text class='n'>X<text>1</text></text>
+        </view>
+      </view>
+    </view>
+
+    <view class='list pad'>
+      <checkbox></checkbox>
+      <view class='img'>
+        <image src='{{imgUrls[0]}}'></image>
+      </view>
+      <view class='con'>
+        <view class='title'>
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='size'>
+          默认规格:
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='price'>
+          <text class='p'>¥<text>12</text></text>
+          <text class='n'>X<text>1</text></text>
+        </view>
+      </view>
+    </view>
+
+    <view class='list pad'>
+      <checkbox></checkbox>
+      <view class='img'>
+        <image src='{{imgUrls[0]}}'></image>
+      </view>
+      <view class='con'>
+        <view class='title'>
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='size'>
+          默认规格:
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='price'>
+          <text class='p'>¥<text>12</text></text>
+          <text class='n'>X<text>1</text></text>
+        </view>
+      </view>
+    </view>
+
+    <view class='list pad'>
+      <checkbox></checkbox>
+      <view class='img'>
+        <image src='{{imgUrls[0]}}'></image>
+      </view>
+      <view class='con'>
+        <view class='title'>
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='size'>
+          默认规格:
+          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
+        </view>
+        <view class='price'>
+          <text class='p'>¥<text>12</text></text>
+          <text class='n'>X<text>1</text></text>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+</view>
+<view class='footer pad'>
+  <label class='left'>
+    <checkbox></checkbox>
+    <text>全选</text>
+  </label>
+  <view class='fRight'>
+    <view class='sum'>
+      <text>合计:<text class='num'>3213</text></text>
+      <text>不含运费</text>
+    </view>
+    <view class='sub'>
+      <button>确认付款</button>
+    </view>
+  </view>
+</view>
