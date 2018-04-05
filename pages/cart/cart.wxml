@@ -1,10 +1,10 @@
 <view class='wrap'>
   <view class='header pad'>
-    <label class='left'>
+    <label class='left' bindtap='selectAllFn'>
       <checkbox></checkbox>
-      <text>全选</text>
+      <text >全选</text>
     </label>
-    <view class='mid'>
+    <view class='mid' bindtap='scanFn'>
       <image src='/images/qr.png'>
       </image>
       <text>扫一扫加入购物车</text>
@@ -14,8 +14,8 @@
     </view>
   </view>
   <view class='main'>
-    <view class='list pad'>
-      <checkbox></checkbox>
+    <view class='list pad' wx:for="{{cartNum}}" wx:key="index">
+      <checkbox value="{{index}}" data-index="{{index}}" bindtap='selectFn'></checkbox>
       <view class='img'>
         <image src='{{imgUrls[0]}}'></image>
         <navigator></navigator>
@@ -35,92 +35,13 @@
       </view>
     </view>
 
-    <view class='list pad'>
-      <checkbox></checkbox>
-      <view class='img'>
-        <image src='{{imgUrls[0]}}'></image>
-      </view>
-      <view class='con'>
-        <view class='title'>
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='size'>
-          默认规格:
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='price'>
-          <text class='p'>¥<text>12</text></text>
-          <text class='n'>X<text>1</text></text>
-        </view>
-      </view>
-    </view>
-
-    <view class='list pad'>
-      <checkbox></checkbox>
-      <view class='img'>
-        <image src='{{imgUrls[0]}}'></image>
-      </view>
-      <view class='con'>
-        <view class='title'>
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='size'>
-          默认规格:
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='price'>
-          <text class='p'>¥<text>12</text></text>
-          <text class='n'>X<text>1</text></text>
-        </view>
-      </view>
-    </view>
-
-    <view class='list pad'>
-      <checkbox></checkbox>
-      <view class='img'>
-        <image src='{{imgUrls[0]}}'></image>
-      </view>
-      <view class='con'>
-        <view class='title'>
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='size'>
-          默认规格:
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='price'>
-          <text class='p'>¥<text>12</text></text>
-          <text class='n'>X<text>1</text></text>
-        </view>
-      </view>
-    </view>
-
-    <view class='list pad'>
-      <checkbox></checkbox>
-      <view class='img'>
-        <image src='{{imgUrls[0]}}'></image>
-      </view>
-      <view class='con'>
-        <view class='title'>
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='size'>
-          默认规格:
-          <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
-        </view>
-        <view class='price'>
-          <text class='p'>¥<text>12</text></text>
-          <text class='n'>X<text>1</text></text>
-        </view>
-      </view>
-    </view>
     
   </view>
 </view>
 <view class='footer pad'>
-  <label class='left'>
+  <label class='left' bindtap='selectAllFn'>
     <checkbox></checkbox>
-    <text>全选</text>
+    <text >全选</text>
   </label>
   <view class='fRight'>
     <view class='sum'>

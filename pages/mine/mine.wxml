@@ -8,7 +8,7 @@
     </view>
   </view>
   <view class='main'>
-    <navigator url="/pages/index/index">
+    <navigator url="/pages/cart/cart" open-type='switchTab'>
       <view class='list'>
       <view class='listL'>
         <image src="/images/mine/mOrder.png"></image>
@@ -68,7 +68,7 @@
     </view>
     </navigator>
   
-    <navigator>
+    <navigator url='/pages/mine/about/about' open-type='navigate'>
       <view class='list'>
       <view class='listL'>
         <image src="/images/mine/our.png"></image>

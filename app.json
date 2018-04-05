@@ -1,17 +1,20 @@
 {
   "pages":[
+    "pages/cart/cart",
     "pages/index/index",
     "pages/detail/detail", 
-    "pages/cart/cart",
+    
     "pages/order/order",
     "pages/mine/mine",
+    "pages/mine/about/about",
     "pages/goods/goods"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#000000",
-    "navigationBarTitleText": "雷雷的小店",
-    "navigationBarTextStyle": "white"
+    "navigationBarTitleText": "玄玄手作坊",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "color":"#CFCFD1",

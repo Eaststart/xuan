@@ -26,20 +26,20 @@ Page({
     }]
   },
   onLoad(){
-    const carU=url+'/api/focus';
-    wx.request({
-      url: carU,
-      success:data=>{
-        let d = data.data.result,
-            p=[];
-        for(let x=0;x<d.length;x++){
-            let tem=d[x].pic.split('\\');
-            p.push(tem.join('/'));
-        }
-        this.setData({
-          imgUrls: p
-        })
-      }
-    })
+    // const carU=url+'/api/focus';
+    // wx.request({
+    //   url: carU,
+    //   success:data=>{
+    //     let d = data.data.result,
+    //         p=[];
+    //     for(let x=0;x<d.length;x++){
+    //         let tem=d[x].pic.split('\\');
+    //         p.push(tem.join('/'));
+    //     }
+    //     this.setData({
+    //       imgUrls: p
+    //     })
+    //   }
+    // })
   },
 })

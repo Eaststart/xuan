@@ -6,6 +6,7 @@ checkbox .wx-checkbox-input {
 
 checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
   font-size: 26rpx;
+  color:#fff;
 }
 
 checkbox .wx-checkbox-input.wx-checkbox-input-checked {
