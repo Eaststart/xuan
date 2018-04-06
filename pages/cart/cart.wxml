@@ -1,7 +1,7 @@
 <view class='wrap'>
   <view class='header pad'>
-    <label class='left' bindtap='selectAllFn'>
-      <checkbox></checkbox>
+    <label class='left' data-index="{{0}}" bindtap='selectAllFn'>
+      <checkbox checked='{{selectAll.two}}'></checkbox>
       <text >全选</text>
     </label>
     <view class='mid' bindtap='scanFn'>
@@ -9,13 +9,13 @@
       </image>
       <text>扫一扫加入购物车</text>
     </view>
-    <view class='right'>
-      <text>编辑</text>
+    <view class='right' bindtap='showControls'>
+      <text>{{controlsText}}</text>
     </view>
   </view>
   <view class='main'>
     <view class='list pad' wx:for="{{cartNum}}" wx:key="index">
-      <checkbox value="{{index}}" data-index="{{index}}" bindtap='selectFn'></checkbox>
+      <checkbox value="{{index}}" data-index="{{index}}" bindtap='selectFn' checked='{{item.checked}}'></checkbox>
       <view class='img'>
         <image src='{{imgUrls[0]}}'></image>
         <navigator></navigator>
@@ -29,9 +29,13 @@
           <text>小鸡肉食小鸡肉食小鸡肉食小鸡肉食小鸡肉食</text>
         </view>
         <view class='price'>
-          <text class='p'>¥<text>12</text></text>
-          <text class='n'>X<text>1</text></text>
+          <text class='p'>¥<text>{{item.price}}</text></text>
+          <text class='n'>X<text>{{item.sum}}</text></text>
         </view>
+        <view class='remove' data-index="{{index}}" bindtap='removeFn' hidden="{{removeShow}}">
+          <text>删除</text>
+        </view>
+        
       </view>
     </view>
 
@@ -39,8 +43,8 @@
   </view>
 </view>
 <view class='footer pad'>
-  <label class='left' bindtap='selectAllFn'>
-    <checkbox></checkbox>
+  <label class='left' data-index="{{1}}" bindtap='selectAllFn'>
+    <checkbox checked='{{selectAll.two}}'></checkbox>
     <text >全选</text>
   </label>
   <view class='fRight'>

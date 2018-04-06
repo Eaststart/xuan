@@ -130,6 +130,7 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked {
 }
 
 .main .list .con {
+  position:relative;
   display: flex;
   flex-direction:column;
 }
@@ -169,6 +170,17 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked {
 .main .list .con .price .n{
   font-size:28rpx;
   color:#888888;
+}
+.main .list .con .remove{
+  position:absolute;
+  width:40rpx;
+  padding:10rpx 20rpx;
+  border-radius:16rpx;
+  height:100rpx;
+  background-color:red;
+  color:#fff;
+  top:0rpx;
+  right:-34rpx;
 }
 
 
